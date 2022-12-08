@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 2rem;
+    color:white;
+}
+
+.box{
+    height:70px;
+    width:70px;
+    border-radius: 10px;
+    border:1px solid white;
+    color:white;
+    display: inline-block;
+    line-height: 70px;
+    text-align: center;
+    margin:6px;
+}
+#container{
+    max-width: 1400px;
+    margin-inline: auto;
+    
+}
+#random-number{
+    display:block;
+    text-align: center;
+    width:140px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+#text-area{
+    width:50px;
+}
+
+#numbers-area{
+    margin-top: 100px;
+    text-align: center;
+}
+.box:hover{
+    background-color: grey;
+}
+.selected{
+    border:5px solid white;
+}
